@@ -1,11 +1,11 @@
 \begin{center}
     {\Huge \scshape \candidateFirstName \vspace{1pt} \candidateLastName} \\ \vspace{1pt}
-    \candidateAddress \\ \vspace{1pt}
-    \small \raisebox{-0.1\height}\faPhone\ \candidatePhone \ \
-    \href{mailto:\candidateEmail}{\raisebox{-0.2\height}\faEnvelope\  \underline{\candidateEmail}} \
-    \href{https://linkedin.com/in/\linkedin/}{\raisebox{-0.2\height}\faLinkedin\ \underline{\linkedin}}  \
-    \href{https://github.com/\github}{\raisebox{-0.2\height}\faGithub\ \underline{\github}} \
-    \href{https://www.\portfolio}{\raisebox{-0.2\height}\faGlobe\ \underline{\portfolio}} \
+    \ifx\candidateAddress\empty\else\candidateAddress \\ \vspace{1pt} \fi
+    \ifx\candidatePhone\empty\else\small \raisebox{-0.1\height}\faPhone\ \candidatePhone ~ \fi
+    \ifx\candidateEmail\empty\else\href{mailto:\candidateEmail}{\raisebox{-0.2\height}\faEnvelope\  \underline{\candidateEmail}} ~ \fi
+    \ifx\linkedin\empty\else\href{https://linkedin.com/in/\linkedin/}{\raisebox{-0.2\height}\faLinkedin\ \underline{\linkedin}}  ~ \fi
+    \ifx\github\empty\else\href{https://github.com/\github}{\raisebox{-0.2\height}\faGithub\ \underline{\github}} ~ \fi
+    \ifx\portfolio\empty\else\href{https://www.\portfolio}{\raisebox{-0.2\height}\faGlobe\ \underline{\portfolio}} \fi
     \vspace{-8pt}
 \end{center}
 
