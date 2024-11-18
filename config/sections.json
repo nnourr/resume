@@ -3,39 +3,55 @@
         "sectionName": "Experience",
         "subheadings": [
             {
-                "company": "Amazon Web Services (AWS)",
-                "period": "June 2022 - September 2023",
-                "position": "Cloud Solutions Engineer",
-                "location": "Seattle, WA",
-                "techstack": "",
+                "company": "ecobee",
+                "period": "Jan 2024 - Aug 2024",
+                "position": "Software Engineer",
+                "location": "Toronto, ON",
+                "techstack": "GO, Typescript, Google CLoud",
                 "resumeItems": [
-                    "Led the design and implementation of a high-performance serverless architecture for multi-region deployment, reducing latency by \\textbf{30\\%} and improving user engagement by \\textbf{25\\%}.",
-                    "Enhanced security compliance by automating access policies and deploying infrastructure monitoring with AWS CloudTrail and GuardDuty, resulting in a \\textbf{70\\%} reduction in security incident response time.",
-                    "Built a customer analytics dashboard using Amazon QuickSight and Redshift, enabling real-time insights that improved customer satisfaction scores by \\textbf{15\\%}."
+                    "Expanded our event-driven architecture with polymorphic, scalable webhook handlers in go.",
+                    "Configured Cloud VPC networks and private endpoints, reducing staging costs by 20\\%.",
+                    "Built dynamic, user-facing web components with React, Styled Components, and Storybook for testing.",
+                    "Organized team-wide release discussions and initiated process improvements, increasing production stability.",
+                    "Led 3 multi-faceted, SEV1 Cloud upgrades, cooperating with my team to manage risk on tight deadlines."
                 ]
             },
             {
-                "company": "Tesla",
-                "period": "September 2021 - May 2022",
-                "position": "Embedded Systems Developer",
-                "location": "Palo Alto, CA",
-                "techstack": "",
+                "company": "Royal Bank of Canada",
+                "period": "May 2023 - Aug 2023",
+                "position": "Cyber Security Applications Developer",
+                "location": "Toronto, ON",
+                "techstack": "Python, Django REST, Vue.js, MySQL",
                 "resumeItems": [
-                    "Developed and optimized firmware for in-vehicle infotainment systems, improving media response time by \\textbf{40\\%} and minimizing system crashes.",
-                    "Designed and tested secure Over-the-Air (OTA) update functionality, increasing update reliability by \\textbf{85\\%} and reducing downtime during software patches.",
-                    "Collaborated closely with the QA team to establish a dynamic test suite for embedded systems, accelerating test coverage by \\textbf{30\\%} and reducing regression issues."
+                    "Translated new requirements into Jira releases, epics, and stories for a rapidly evolving security dashboard.",
+                    "Architected RESTful API endpoints and database migrations using Django REST and MySQL.",
+                    "Managed feature pipelines from data ingestion to front-end API, focusing on security and scalability."                 
                 ]
             },
             {
-                "company": "Spotify",
-                "period": "January 2021 - August 2021",
-                "position": "Software Engineer, Machine Learning",
-                "location": "New York, NY",
+                "company": "System1",
+                "period": "Sept 2022 - Dec 2022",
+                "position": "Full Stack Web Developer",
+                "location": "Guelph, ON",
+                "techstack": "Angular, C\\#, .NET, Snowflake",
+                "resumeItems": [
+                    "Grew our Advertising dashboard to support third-party vendors with Angular and .NET.",
+                    "Improved SQL query efficiency, reducing response time by 30-40\\%."
+                ]
+            }
+        ]
+    },
+    {
+        "sectionName": "Education",
+        "subheadings": [
+            {
+                "company": "University of Guelph",
+                "period": "September 2020 - June 2025 (Expected)",
+                "position": "Bachelor of Computing, Software Engineering (Co-op),",
+                "location": "",
                 "techstack": "",
                 "resumeItems": [
-                    "Engineered a recommendation system using collaborative filtering and neural networks, increasing monthly user retention by \\textbf{20\\%}.",
-                    "Implemented A/B testing frameworks that enabled rapid experimentation across recommendation models, reducing testing time by \\textbf{50\\%}.",
-                    "Optimized data pipelines for real-time processing of 1M+ audio streams daily using Apache Kafka and Spark, enhancing processing speed by \\textbf{60\\%}."
+                    "Minor: Project Management"
                 ]
             }
         ]
@@ -50,9 +66,9 @@
                 "location": "",
                 "techstack": "",
                 "resumeItems": [
-                    "Expert in cloud infrastructure and containerization, with strong proficiency in AWS, Docker, and Kubernetes.",
+                    "Expert in cloud infrastructure and containerization, with strong proficiency in GCP, Docker, and Kubernetes.",
                     "Exceptional analytical and troubleshooting abilities, adept at diagnosing complex issues in distributed systems.",
-                    "Effective communicator with experience in cross-functional collaboration and stakeholder management."
+                    "Effective communicator with experience in cross-functional collaboration and team leadership."
                 ]
             }
         ]
@@ -67,10 +83,9 @@
                 "location": "",
                 "techstack": "",
                 "resumeItems": [
-                    "\\textbf{Languages}: Python, JavaScript, Java, C++, Go, SQL, TypeScript.",
-                    "\\textbf{Frameworks and Libraries}: Django, Flask, React, Node.js, TensorFlow, PyTorch.",
-                    "\\textbf{Tools and Platforms}: AWS, GCP, Docker, Kubernetes, Jenkins, Terraform.",
-                    "\\textbf{Techniques}: Machine Learning, Data Engineering, Cloud Architecture, Distributed Systems, Microservices."
+                    "\\textbf{Languages}: JavaScript, Python, Java, GO, C\\#, SQL",
+                    "\\textbf{Frameworks and Libraries}: React, Angular, Vue, Node.js, Django, .NET, Java Spring, GraphQL.",
+                    "\\textbf{Cloud}: CI/CD, Docker, Firebase, GitHub Actions, Google Cloud, AWS, Microservice Architecture"
                 ]
             }
         ]
@@ -79,41 +94,37 @@
         "sectionName": "Projects",
         "subheadings": [
             {
-                "company": "Real-Time Traffic Monitoring System",
-                "period": "October 2022 - February 2023",
+                "company": "Plant Together",
+                "period": "Sept 2024 - Present",
                 "position": "",
                 "location": "",
-                "techstack": "Python, AWS",
+                "techstack": "React, ExpressJS, Postgres, Google Compute Engine, Yjs",
                 "resumeItems": [
-                    "Developed a traffic monitoring system using computer vision algorithms in Python, achieving \\textbf{95\\%} accuracy in vehicle detection.",
-                    "Deployed the system on AWS with Lambda and S3 for scalable image processing, reducing processing costs by \\textbf{40\\%}."
+                    "Designed a collaborative PlantUML editor, hosted on Google Compute Engine and used by 50+ colleagues.",
+                    "Enabled conflict-free, real-time collaboration using Yjs, a CRDT implementation.",
+                    "Persisted encrypted designed using Redis cache and Postgres for long term storage."
                 ]
             },
             {
-                "company": "Personal Finance Tracker",
-                "period": "July 2021 - September 2021",
+                "company": "Music Circle",
+                "period": "May 2024 - Present",
+                "position": "",
+                "location": "",
+                "techstack": "React, Firestore, ExpressJS, Google Cloud Run, Spotify API",
+                "resumeItems": [
+                    "Built a scalable Express.js backend on Google Cloud Run, enabling seamless music sharing.",
+                    "Integrated OAuth for Spotify API authentication, ensuring secure and user-friendly access."
+                ]
+            },
+            {
+                "company": "Reddit to TikTok Re-Poster",
+                "period": "Mar 2021 - May 2021",
                 "position": "",
                 "location": "",
                 "techstack": "React Native, Firestore",
                 "resumeItems": [
-                    "Created a mobile application in React Native for tracking personal finances, with secure data storage using Firebase Authentication and Firestore.",
-                    "Integrated data visualization features to provide users with monthly spending insights, improving financial literacy for over 500 users."
-                ]
-            }
-        ]
-    },
-    {
-        "sectionName": "Education",
-        "subheadings": [
-            {
-                "company": "University of California, Berkeley",
-                "period": "September 2017 - May 2021",
-                "position": "Bachelor of Science in Computer Science",
-                "location": "Berkeley, CA",
-                "techstack": "",
-                "resumeItems": [
-                    "Graduated with honors, GPA: 3.8/4.0",
-                    "Relevant coursework: Data Structures and Algorithms, Machine Learning, Cloud Computing, Distributed Systems"
+                    "Used OpenCV for video analysis and automated content creation with Flask and Selenium.",
+                    "Achieved 95\\% improvement in goal-finding speed through multithreading and binary search algorithms."
                 ]
             }
         ]
