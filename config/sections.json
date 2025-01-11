@@ -67,10 +67,9 @@
                 "location": "",
                 "techstack": "",
                 "resumeItems": [
-                    "\\textbf{Languages}: Python, JavaScript, Java, C++, Go, SQL, TypeScript.",
-                    "\\textbf{Frameworks and Libraries}: Django, Flask, React, Node.js, TensorFlow, PyTorch.",
-                    "\\textbf{Tools and Platforms}: AWS, GCP, Docker, Kubernetes, Jenkins, Terraform.",
-                    "\\textbf{Techniques}: Machine Learning, Data Engineering, Cloud Architecture, Distributed Systems, Microservices."
+                    "\\textbf{Languages}: JavaScript, Python, Java, GO, C\\#, SQL",
+                    "\\textbf{Frameworks and Libraries}: React, Angular, Vue, Node.js, Django, .NET, Java Spring, GraphQL.",
+                    "\\textbf{Cloud}: CI/CD, Docker, Firebase, GitHub Actions, Google Cloud, AWS, Microservice Architecture"
                 ]
             }
         ]
@@ -79,11 +78,11 @@
         "sectionName": "Projects",
         "subheadings": [
             {
-                "company": "Real-Time Traffic Monitoring System",
-                "period": "October 2022 - February 2023",
+                "company": "Plant Together",
+                "period": "Sept 2024 - Present",
                 "position": "",
                 "location": "",
-                "techstack": "Python, AWS",
+                "techstack": "React, ExpressJS, Postgres, Google Compute Engine, Yjs",
                 "resumeItems": [
                     "Created a collaborative PlantUML editor, used by 50+ colleagues for their Software Design Courses.",
                     "Enabled error-free, real-time collaboration using Yjs, eliminating the potential for merge conflicts.",
