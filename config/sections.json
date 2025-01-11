@@ -1,5 +1,22 @@
 [
     {
+        "sectionName": "Education",
+        "subheadings": [
+            {
+                "company": "University of Guelph",
+                "period": "September 2020 - June 2025 (Expected)",
+                "position": "Bachelor of Computing, Software Engineering (Co-op),",
+                "location": "",
+                "techstack": "",
+                "resumeItems": [
+                    "Minor: Project Management",
+                    "Relevant Courses: Software Engineering (97\\%), Software Design V (90\\%), Project Management (99\\%)",
+                    "GPA: 3.7/4"
+                ]
+            }
+        ]
+    },
+    {
         "sectionName": "Experience",
         "subheadings": [
             {
@@ -9,11 +26,10 @@
                 "location": "Toronto, ON",
                 "techstack": "GO, Typescript, Google CLoud",
                 "resumeItems": [
-                    "Expanded our event-driven architecture with polymorphic, scalable webhook handlers in go.",
-                    "Configured Cloud VPC networks and private endpoints, reducing staging costs by 20\\%.",
-                    "Built dynamic, user-facing web components with React, Styled Components, and Storybook for testing.",
+                    "Designed new GO event handlers to quickly and accurately represent the status of user's smart door locks.",
+                    "Configured Virtual Private Cloud networks and private API endpoints, bolstering security and reducing staging costs by 20\\%.",
                     "Organized team-wide release discussions and initiated process improvements, increasing production stability.",
-                    "Led 3 multi-faceted, SEV1 Cloud upgrades, cooperating with my team to manage risk on tight deadlines."
+                    "Led 3 multi-faceted, high impact Cloud upgrades, cooperating with my team to manage risk on tight deadlines."
                 ]
             },
             {
@@ -24,8 +40,8 @@
                 "techstack": "Python, Django REST, Vue.js, MySQL",
                 "resumeItems": [
                     "Translated new requirements into Jira releases, epics, and stories for a rapidly evolving security dashboard.",
-                    "Architected RESTful API endpoints and database migrations using Django REST and MySQL.",
-                    "Managed feature pipelines from data ingestion to front-end API, focusing on security and scalability."                 
+                    "Architected RESTful API endpoints and database migrations for fast access to sensitive cybersecurity data.",
+                    "Owned complete features from design to deployment, demonstrating consistent commitment to quality throughout."
                 ]
             },
             {
@@ -37,38 +53,6 @@
                 "resumeItems": [
                     "Grew our Advertising dashboard to support third-party vendors with Angular and .NET.",
                     "Improved SQL query efficiency, reducing response time by 30-40\\%."
-                ]
-            }
-        ]
-    },
-    {
-        "sectionName": "Education",
-        "subheadings": [
-            {
-                "company": "University of Guelph",
-                "period": "September 2020 - June 2025 (Expected)",
-                "position": "Bachelor of Computing, Software Engineering (Co-op),",
-                "location": "",
-                "techstack": "",
-                "resumeItems": [
-                    "Minor: Project Management"
-                ]
-            }
-        ]
-    },
-    {
-        "sectionName": "Highlights of Qualifications",
-        "subheadings": [
-            {
-                "company": "",
-                "period": "",
-                "position": "",
-                "location": "",
-                "techstack": "",
-                "resumeItems": [
-                    "Expert in cloud infrastructure and containerization, with strong proficiency in GCP, Docker, and Kubernetes.",
-                    "Exceptional analytical and troubleshooting abilities, adept at diagnosing complex issues in distributed systems.",
-                    "Effective communicator with experience in cross-functional collaboration and team leadership."
                 ]
             }
         ]
@@ -100,9 +84,9 @@
                 "location": "",
                 "techstack": "React, ExpressJS, Postgres, Google Compute Engine, Yjs",
                 "resumeItems": [
-                    "Designed a collaborative PlantUML editor, hosted on Google Compute Engine and used by 50+ colleagues.",
-                    "Enabled conflict-free, real-time collaboration using Yjs, a CRDT implementation.",
-                    "Persisted encrypted designed using Redis cache and Postgres for long term storage."
+                    "Created a collaborative PlantUML editor, used by 50+ colleagues for their Software Design Courses.",
+                    "Enabled error-free, real-time collaboration using Yjs, eliminating the potential for merge conflicts.",
+                    "Persisted encrypted designes using Redis cache and Postgres for long term storage."
                 ]
             },
             {
@@ -112,8 +96,8 @@
                 "location": "",
                 "techstack": "React, Firestore, ExpressJS, Google Cloud Run, Spotify API",
                 "resumeItems": [
-                    "Built a scalable Express.js backend on Google Cloud Run, enabling seamless music sharing.",
-                    "Integrated OAuth for Spotify API authentication, ensuring secure and user-friendly access."
+                    "Built a service that scales, enabling hundreds of people to share their music taste simultaneously.",
+                    "Integrated OAuth for Spotify API authentication, ensuring secure and convenient access."
                 ]
             },
             {
@@ -121,9 +105,9 @@
                 "period": "Mar 2021 - May 2021",
                 "position": "",
                 "location": "",
-                "techstack": "React Native, Firestore",
+                "techstack": "Python, Flask, Firebase, OpenCV, MoviePy",
                 "resumeItems": [
-                    "Used OpenCV for video analysis and automated content creation with Flask and Selenium.",
+                    "Used OpenCV, MoviePy and the Reddit API to create an ML powered automatic content creation pipeline.",
                     "Achieved 95\\% improvement in goal-finding speed through multithreading and binary search algorithms."
                 ]
             }
