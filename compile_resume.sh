@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 cd src
 python3 generate_resume.py
