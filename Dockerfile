@@ -4,4 +4,4 @@ WORKDIR /usr/local/resume
 
 RUN apk add --no-cache python3 py3-pip
 
-CMD sh /usr/local/resume/compile_resume.sh
+CMD sh compile_resume.sh
