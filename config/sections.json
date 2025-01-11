@@ -1,58 +1,58 @@
 [
     {
-        "sectionName": "Experience",
+        "sectionName": "Education",
         "subheadings": [
             {
-                "company": "Amazon Web Services (AWS)",
-                "period": "June 2022 - September 2023",
-                "position": "Cloud Solutions Engineer",
-                "location": "Seattle, WA",
+                "company": "University of Guelph",
+                "period": "September 2020 - June 2025 (Expected)",
+                "position": "Bachelor of Computing, Software Engineering (Co-op),",
+                "location": "",
                 "techstack": "",
                 "resumeItems": [
-                    "Led the design and implementation of a high-performance serverless architecture for multi-region deployment, reducing latency by \\textbf{30\\%} and improving user engagement by \\textbf{25\\%}.",
-                    "Enhanced security compliance by automating access policies and deploying infrastructure monitoring with AWS CloudTrail and GuardDuty, resulting in a \\textbf{70\\%} reduction in security incident response time.",
-                    "Built a customer analytics dashboard using Amazon QuickSight and Redshift, enabling real-time insights that improved customer satisfaction scores by \\textbf{15\\%}."
-                ]
-            },
-            {
-                "company": "Tesla",
-                "period": "September 2021 - May 2022",
-                "position": "Embedded Systems Developer",
-                "location": "Palo Alto, CA",
-                "techstack": "",
-                "resumeItems": [
-                    "Developed and optimized firmware for in-vehicle infotainment systems, improving media response time by \\textbf{40\\%} and minimizing system crashes.",
-                    "Designed and tested secure Over-the-Air (OTA) update functionality, increasing update reliability by \\textbf{85\\%} and reducing downtime during software patches.",
-                    "Collaborated closely with the QA team to establish a dynamic test suite for embedded systems, accelerating test coverage by \\textbf{30\\%} and reducing regression issues."
-                ]
-            },
-            {
-                "company": "Spotify",
-                "period": "January 2021 - August 2021",
-                "position": "Software Engineer, Machine Learning",
-                "location": "New York, NY",
-                "techstack": "",
-                "resumeItems": [
-                    "Engineered a recommendation system using collaborative filtering and neural networks, increasing monthly user retention by \\textbf{20\\%}.",
-                    "Implemented A/B testing frameworks that enabled rapid experimentation across recommendation models, reducing testing time by \\textbf{50\\%}.",
-                    "Optimized data pipelines for real-time processing of 1M+ audio streams daily using Apache Kafka and Spark, enhancing processing speed by \\textbf{60\\%}."
+                    "Minor: Project Management",
+                    "Relevant Courses: Software Engineering (97\\%), Software Design V (90\\%), Project Management (99\\%)",
+                    "GPA: 3.7/4"
                 ]
             }
         ]
     },
     {
-        "sectionName": "Highlights of Qualifications",
+        "sectionName": "Experience",
         "subheadings": [
             {
-                "company": "",
-                "period": "",
-                "position": "",
-                "location": "",
-                "techstack": "",
+                "company": "ecobee",
+                "period": "Jan 2024 - Aug 2024",
+                "position": "Software Engineer",
+                "location": "Toronto, ON",
+                "techstack": "GO, Typescript, Google CLoud",
                 "resumeItems": [
-                    "Expert in cloud infrastructure and containerization, with strong proficiency in AWS, Docker, and Kubernetes.",
-                    "Exceptional analytical and troubleshooting abilities, adept at diagnosing complex issues in distributed systems.",
-                    "Effective communicator with experience in cross-functional collaboration and stakeholder management."
+                    "Designed new GO event handlers to quickly and accurately represent the status of user's smart door locks.",
+                    "Configured Virtual Private Cloud networks and private API endpoints, bolstering security and reducing staging costs by 20\\%.",
+                    "Organized team-wide release discussions and initiated process improvements, increasing production stability.",
+                    "Led 3 multi-faceted, high impact Cloud upgrades, cooperating with my team to manage risk on tight deadlines."
+                ]
+            },
+            {
+                "company": "Royal Bank of Canada",
+                "period": "May 2023 - Aug 2023",
+                "position": "Cyber Security Applications Developer",
+                "location": "Toronto, ON",
+                "techstack": "Python, Django REST, Vue.js, MySQL",
+                "resumeItems": [
+                    "Translated new requirements into Jira releases, epics, and stories for a rapidly evolving security dashboard.",
+                    "Architected RESTful API endpoints and database migrations for fast access to sensitive cybersecurity data.",
+                    "Owned complete features from design to deployment, demonstrating consistent commitment to quality throughout."
+                ]
+            },
+            {
+                "company": "System1",
+                "period": "Sept 2022 - Dec 2022",
+                "position": "Full Stack Web Developer",
+                "location": "Guelph, ON",
+                "techstack": "Angular, C\\#, .NET, Snowflake",
+                "resumeItems": [
+                    "Grew our Advertising dashboard to support third-party vendors with Angular and .NET.",
+                    "Improved SQL query efficiency, reducing response time by 30-40\\%."
                 ]
             }
         ]
@@ -85,35 +85,31 @@
                 "location": "",
                 "techstack": "Python, AWS",
                 "resumeItems": [
-                    "Developed a traffic monitoring system using computer vision algorithms in Python, achieving \\textbf{95\\%} accuracy in vehicle detection.",
-                    "Deployed the system on AWS with Lambda and S3 for scalable image processing, reducing processing costs by \\textbf{40\\%}."
+                    "Created a collaborative PlantUML editor, used by 50+ colleagues for their Software Design Courses.",
+                    "Enabled error-free, real-time collaboration using Yjs, eliminating the potential for merge conflicts.",
+                    "Persisted encrypted designes using Redis cache and Postgres for long term storage."
                 ]
             },
             {
-                "company": "Personal Finance Tracker",
-                "period": "July 2021 - September 2021",
+                "company": "Music Circle",
+                "period": "May 2024 - Present",
                 "position": "",
                 "location": "",
-                "techstack": "React Native, Firestore",
+                "techstack": "React, Firestore, ExpressJS, Google Cloud Run, Spotify API",
                 "resumeItems": [
-                    "Created a mobile application in React Native for tracking personal finances, with secure data storage using Firebase Authentication and Firestore.",
-                    "Integrated data visualization features to provide users with monthly spending insights, improving financial literacy for over 500 users."
+                    "Built a service that scales, enabling hundreds of people to share their music taste simultaneously.",
+                    "Integrated OAuth for Spotify API authentication, ensuring secure and convenient access."
                 ]
-            }
-        ]
-    },
-    {
-        "sectionName": "Education",
-        "subheadings": [
+            },
             {
-                "company": "University of California, Berkeley",
-                "period": "September 2017 - May 2021",
-                "position": "Bachelor of Science in Computer Science",
-                "location": "Berkeley, CA",
-                "techstack": "",
+                "company": "Reddit to TikTok Re-Poster",
+                "period": "Mar 2021 - May 2021",
+                "position": "",
+                "location": "",
+                "techstack": "Python, Flask, Firebase, OpenCV, MoviePy",
                 "resumeItems": [
-                    "Graduated with honors, GPA: 3.8/4.0",
-                    "Relevant coursework: Data Structures and Algorithms, Machine Learning, Cloud Computing, Distributed Systems"
+                    "Used OpenCV, MoviePy and the Reddit API to create an ML powered automatic content creation pipeline.",
+                    "Achieved 95\\% improvement in goal-finding speed through multithreading and binary search algorithms."
                 ]
             }
         ]
