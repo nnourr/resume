@@ -17,8 +17,38 @@
         ]
     },
     {
+        "sectionName": "Technical Skills",
+        "subheadings": [
+            {
+                "company": "",
+                "period": "",
+                "position": "",
+                "location": "",
+                "techstack": "",
+                "resumeItems": [
+                    "\\textbf{Languages}: JavaScript, Typescript, Python, Java, GO, C\\#, SQL",
+                    "\\textbf{Frameworks and Libraries}: React, Angular, Vue, Node.js, Django, .NET, Java Spring, GraphQL.",
+                    "\\textbf{Cloud}: CI/CD, Docker, Firebase, GitHub Actions, Google Cloud, AWS, Microservice Architecture"
+                ]
+            }
+        ]
+    },
+    {
         "sectionName": "Experience",
         "subheadings": [
+            {
+                "company": "LearningModeAI",
+                "period": "Jan 2025 - Present",
+                "position": "Founding Engineer",
+                "location": "Toronto, ON",
+                "techstack": "GO, Javascript, AWS",
+                "resumeItems": [
+                    "Mentored 6 developers working to revolutionize AI in the education industry.",
+                    "Collaborated with 2 other co-founders to define product roadmap and company vision.",
+                    "Created new processes for collecting, analyzing and acting on user analytics, with a focus on reducing waste",
+                    "Developed and maintained our microservice architecture hosted on AWS, with a focus on scalability and performance."
+                ]
+            },
             {
                 "company": "ecobee",
                 "period": "Jan 2024 - Aug 2024",
@@ -53,23 +83,6 @@
                 "resumeItems": [
                     "Grew our Advertising dashboard to support third-party vendors with Angular and .NET.",
                     "Improved SQL query efficiency, reducing response time by 30-40\\%."
-                ]
-            }
-        ]
-    },
-    {
-        "sectionName": "Technical Skills",
-        "subheadings": [
-            {
-                "company": "",
-                "period": "",
-                "position": "",
-                "location": "",
-                "techstack": "",
-                "resumeItems": [
-                    "\\textbf{Languages}: JavaScript, Python, Java, GO, C\\#, SQL",
-                    "\\textbf{Frameworks and Libraries}: React, Angular, Vue, Node.js, Django, .NET, Java Spring, GraphQL.",
-                    "\\textbf{Cloud}: CI/CD, Docker, Firebase, GitHub Actions, Google Cloud, AWS, Microservice Architecture"
                 ]
             }
         ]
