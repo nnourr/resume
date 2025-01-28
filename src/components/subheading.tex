@@ -1,3 +1,10 @@
+\ifx\company\undefined \def\company{} \fi
+\ifx\period\undefined \def\period{} \fi
+\ifx\position\undefined \def\position{} \fi
+\ifx\location\undefined \def\location{} \fi
+\ifx\techstack\undefined \def\techstack{} \fi
+\ifx\resumeItems\undefined \def\resumeItems{} \fi
+
 \ifx\techstack\empty
   \ifx\company\empty
     \resumeSubheading
@@ -23,3 +30,10 @@
 \resumeItemListEnd
 
 \fi
+
+\def\company{}
+\def\period{}
+\def\position{}
+\def\location{}
+\def\techstack{}
+\def\resumeItems{}

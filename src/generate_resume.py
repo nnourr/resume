@@ -6,7 +6,28 @@ components_folder = os.getenv('COMPONENTS_PATH') or './components'
 
 def load_data(filename, is_json=False):
     with open(filename, "r") as file:
-        return json.load(file) if is_json else file.read()
+        content = file.read()
+
+        if not is_json:
+            return content
+
+        special_chars = {
+            '&': '\\\\&',
+            '%': '\\\\%',
+            '$': '\\\\$',
+            '#': '\\\\#',
+            '_': '\\\\_',
+            '~': '\\\\textasciitilde{}',
+            '^': '\\\\textasciicircum{}',
+            '|': '\\\\textbar{}',
+            '<': '\\\\textless{}',
+            '>': '\\\\textgreater{}',
+        }
+        
+        for character, escaped_char in special_chars.items():
+            content = content.replace(character, escaped_char)
+        
+        return json.loads(content)
 
 def define_variable(name, value):
     return f"\\def\\{name}{{{value}}}\n"

@@ -1,4 +1,13 @@
 \begin{center}
+    \ifx\candidateFirstName\undefined \def\candidateFirstName{} \fi
+    \ifx\candidateLastName\undefined \def\candidateLastName{} \fi
+    \ifx\candidateAddress\undefined \def\candidateAddress{} \fi
+    \ifx\candidatePhone\undefined \def\candidatePhone{} \fi
+    \ifx\candidateEmail\undefined \def\candidateEmail{} \fi
+    \ifx\linkedin\undefined \def\linkedin{} \fi
+    \ifx\github\undefined \def\github{} \fi
+    \ifx\portfolio\undefined \def\portfolio{} \fi
+
     {\Huge \scshape \candidateFirstName \vspace{1pt} \candidateLastName} \\ \vspace{1pt}
     \ifx\candidateAddress\empty\else\candidateAddress \\ \vspace{1pt} \fi
     \ifx\candidatePhone\empty\else\small \raisebox{-0.1\height}\faPhone\ \candidatePhone ~ \fi

@@ -35,7 +35,7 @@ The resume sections are defined in the [sections.json](./config/sections.json) f
 ]
 ```
 
-If any of the fields are not required, they need to be defined and can be kept empty. 
+> All fields are optional allowing for section structure variability. E.g. Refer to `Highlights of Qualifications` section in [samples/john-doe.pdf](samples/john-doe.pdf).
 
 [heading.json](./config/heading.json) is kept separate to define the candidate's information separate from the rest of the content. Following format is required:
 
@@ -51,6 +51,22 @@ If any of the fields are not required, they need to be defined and can be kept e
     "portfolio": "portfolio.me"
 }
 ```
+
+> These fields are also optional, except for a first or last name.
+
+### Embedding LaTeX
+
+You might want to change the formatting of some text on your resume like bolding important figures or changing color of some parts of the content. 
+
+For such purposes, you can wrap the text in LaTeX embeddings within your JSON configs. e.g. ```json "company": "\\textcolor{red}{Spotify}"```.
+
+To fascilitate the above, the following characters aren't escaped in the script `\{}`. If you need to use them in your resume you can do the following:
+
+- `\`: ```json\\textbackslash{}```
+- `{`: ```json\\{```
+- `}`: ```json\\}```
+
+
 ## Python Script
 
 [generate_resume.py](./src/generate_resume.py) is the main script that glues all the components and their respective configurations together. It iterates over the configuration files, translates them into variable definitions in LaTeX, and adds all the components to one single file called `resume.tex`. 
@@ -86,7 +102,7 @@ In my personal fork, I have the pipeline pushing the resume to my [portfolio web
    - Go to the "Settings" tab of your forked repository.
    - Navigate to "Secrets and variables" > "Actions".
    - Add the following variables:
-     - `GITHUB_OWNER_REPO`: The owner and repository name of the target repository (e.g., `username/repo`).
+     - `GIITHUB_OWNER_REPO`: The owner and repository name of the target repository (e.g., `username/repo`).
      - `REPO_RESUME_PATH`: The path in the target repository where the resume will be stored (e.g., `public/resume.pdf`).
 
 4. **Run the Pipeline**:
