@@ -6,8 +6,6 @@
                 "company": "University of Guelph",
                 "period": "September 2020 - May 2025 (Expected)",
                 "position": "Bachelor of Computing, Software Engineering (Co-op),",
-                "location": "",
-                "techstack": "",
                 "resumeItems": [
                     "Minor: Project Management",
                     "Relevant Courses: Software Engineering (97%), Software Design V (90%), Project Management (99%)"
@@ -86,8 +84,6 @@
             {
                 "company": "Plant Together",
                 "period": "Sept 2024 - Present",
-                "position": "",
-                "location": "",
                 "techstack": "React, ExpressJS, Postgres, Google Compute Engine, Yjs",
                 "resumeItems": [
                     "Created a collaborative PlantUML editor, used by \\textbf{50+ colleagues} for their Software Design Courses.",
@@ -98,8 +94,6 @@
             {
                 "company": "Music Circle",
                 "period": "May 2024 - Present",
-                "position": "",
-                "location": "",
                 "techstack": "React, Firestore, ExpressJS, Google Cloud Run, Spotify API",
                 "resumeItems": [
                     "Iteratively designed a beautiful UI using \\textbf{Figma prototypes} for user testing.",
@@ -109,8 +103,6 @@
             {
                 "company": "Reddit to TikTok Re-Poster",
                 "period": "Mar 2021 - May 2021",
-                "position": "",
-                "location": "",
                 "techstack": "Python, Flask, Firebase, OpenCV, MoviePy",
                 "resumeItems": [
                     "Architected an ML powered automatic content creation pipeline using OpenCV, MoviePy and the Reddit API.",
