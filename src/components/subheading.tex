@@ -4,6 +4,7 @@
 \ifx\location\undefined \def\location{} \fi
 \ifx\techstack\undefined \def\techstack{} \fi
 \ifx\resumeItems\undefined \def\resumeItems{} \fi
+\ifx\rawText\undefined \def\rawText{} \fi
 
 \ifx\techstack\empty
   \ifx\company\empty
@@ -19,6 +20,11 @@
   \resumeSubheading
   {\textbf{\company} $|$ \emph\techstack}{\period}
   {\position}{\location}
+\fi
+
+\ifx\rawText\empty\else
+\vspace{4px}
+\quad\small{\rawText}
 \fi
 
 \ifx\resumeItems\empty\else
@@ -37,3 +43,4 @@
 \def\location{}
 \def\techstack{}
 \def\resumeItems{}
+\def\rawText{}

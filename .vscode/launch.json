@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug generate_resume.py",
+      "type": "debugpy",
+      "cwd": "${workspaceFolder}/src",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/generate_resume.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

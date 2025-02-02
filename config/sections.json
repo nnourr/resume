@@ -19,11 +19,6 @@
         "sectionName": "Technical Skills",
         "subheadings": [
             {
-                "company": "",
-                "period": "",
-                "position": "",
-                "location": "",
-                "techstack": "",
                 "resumeItems": [
                     "\\textbf{Languages}: JavaScript, Typescript, Python, Java, GO, C#, SQL",
                     "\\textbf{Frameworks and Libraries}: React, Angular, Vue, Node.js, Django, .NET, Java Spring, GraphQL.",

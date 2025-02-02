@@ -23,6 +23,7 @@ The resume sections are defined in the [sections.json](./config/sections.json) f
                 "position": "Internal Tools Developer",
                 "location": "localhost",
                 "techstack": "C, COBOL",
+                "rawText": "You can really just type anything you want here! how crazy is that???",
                 "resumeItems": [
                     "Did this and that",
                     "Achieved this and that"
@@ -35,7 +36,7 @@ The resume sections are defined in the [sections.json](./config/sections.json) f
 ]
 ```
 
-> All fields are optional allowing for section structure variability. E.g. Refer to `Highlights of Qualifications` section in [samples/john-doe.pdf](samples/john-doe.pdf).
+> All fields are optional allowing for section structure variability. E.g. Refer to `Professional Summary` section in [samples/john-doe.pdf](samples/john-doe.pdf).
 
 [heading.json](./config/heading.json) is kept separate to define the candidate's information separate from the rest of the content. Following format is required:
 
