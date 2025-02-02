@@ -1,5 +1,13 @@
 [
     {
+        "sectionName": "Professional Summary",
+        "subheadings": [
+            {
+                "rawText": "Software engineering graduate with 2+ years of experience building scalable, event-driven and user-focused applications. Skilled in full-stack development, cloud architecture, and agile project management. Collaborative team member seeking to leverage my technical and leadership expertise at fast-paced tech companies."
+            }
+        ]
+    },
+    {
         "sectionName": "Education",
         "subheadings": [
             {
@@ -89,15 +97,6 @@
                     "Created a collaborative PlantUML editor, used by \\textbf{50+ colleagues} for their Software Design Courses.",
                     "Enabled error-free, real-time collaboration using Yjs, eliminating the potential for merge conflicts.",
                     "Persisted encrypted designs using Redis cache and a Postgres backup for long term storage."
-                ]
-            },
-            {
-                "company": "Music Circle",
-                "period": "May 2024 - Present",
-                "techstack": "React, Firestore, ExpressJS, Google Cloud Run, Spotify API",
-                "resumeItems": [
-                    "Iteratively designed a beautiful UI using \\textbf{Figma prototypes} for user testing.",
-                    "Integrated OAuth for Spotify API authentication, ensuring secure and convenient access."
                 ]
             },
             {
