@@ -3,7 +3,7 @@
         "sectionName": "Professional Summary",
         "subheadings": [
             {
-                "rawText": "Software engineering graduate with 2+ years of experience building scalable, event-driven and user-focused applications. Skilled in full-stack development, cloud architecture, and agile project management. Collaborative team member seeking to leverage my technical and leadership expertise at fast-paced tech companies."
+                "rawText": "Software engineering graduate with 3+ years of experience building scalable, event-driven and user-focused applications. Skilled in software testing, cloud technology, and databases. Collaborative team member seeking to leverage my technical and leadership expertise at a fast-paced innovative opportunity."
             }
         ]
     },
@@ -12,11 +12,11 @@
         "subheadings": [
             {
                 "company": "University of Guelph",
-                "period": "September 2020 - May 2025 (Expected)",
+                "period": "September 2020 - April 2025 (Expected)",
                 "position": "Bachelor of Computing, Software Engineering (Co-op),",
                 "resumeItems": [
                     "Minor: Project Management",
-                    "Relevant Courses: Software Engineering (97%), Software Design V (90%), Project Management (99%)"
+                    "Relevant Courses: Software Reliability & Testing, Databases, Software Design V, Agile Project Management"
                 ]
             }
         ]
@@ -26,9 +26,9 @@
         "subheadings": [
             {
                 "resumeItems": [
-                    "\\textbf{Languages}: JavaScript, Typescript, Python, Java, GO, C#, SQL",
-                    "\\textbf{Frameworks and Libraries}: React, Angular, Vue, Node.js, Django, .NET, Java Spring, GraphQL.",
-                    "\\textbf{Cloud}: CI/CD, Docker, Firebase, GitHub Actions, Google Cloud, AWS, Microservice Architecture"
+                    "\\textbf{Languages}: JavaScript, C#, SQL, Typescript, Python, Java, GO",
+                    "\\textbf{Frameworks and Libraries}: Angular 17, .NET 8, React, Jest, Vue, Node.js, Django, Java Spring, GraphQL.",
+                    "\\textbf{Cloud}: Google Cloud, AWS, CI/CD, Docker, Kubernetes, GitHub Actions, Firebase"
                 ]
             }
         ]
@@ -41,11 +41,12 @@
                 "period": "Jan 2025 - Present",
                 "position": "Founding Engineer",
                 "location": "Toronto, ON",
-                "techstack": "GO, Javascript, AWS",
+                "techstack": "GO, Javascript, React, AWS, Docker",
                 "resumeItems": [
-                    "Creating new processes to streamline the collection and analysis of \\textbf{user analytics} via \\textbf{Microsoft Clarity}.",
-                    "Mentoring \\textbf{6} junior developers working to revolutionize AI in the education industry.",
-                    "Developing a scalable and performant microservice architecture with \\textbf{AWS EC2 & Elasticache}."
+                    "Develop a scalable and performant microservice architecture with \\textbf{AWS EC2 & Elasticache}.",
+                    "Translate \\textbf{user needs} into \\textbf{requirements} by enabling Microsoft Clarity \\textbf{user analytics}.",
+                    "Collaborate with developers and co-founders to create Agile user stories and \\textbf{provide estimates}.",
+                    "Mentor \\textbf{6} junior developers in our tech stack, performing \\textbf{code reviews} and shared learning sessions."
                 ]
             },
             {
@@ -53,12 +54,12 @@
                 "period": "Jan 2024 - Aug 2024",
                 "position": "Software Engineer",
                 "location": "Toronto, ON",
-                "techstack": "GO, Typescript, Google CLoud",
+                "techstack": "GO, Typescript, GCP",
                 "resumeItems": [
                     "Enabled \\textbf{1000s} of users to link their Yale smart door locks to our app using third-party webhooks in GO.",
-                    "Bolstered security and reduced staging costs by \\textbf{20%} by configuring private networks on our Cloud infrastructure.",
-                    "Reduced on-call complaints by \\textbf{70%} by organizing team-wide release discussions and leading process improvements.",
-                    "Led \\textbf{3} multi-faceted, high impact Cloud upgrades, cooperating with my team to manage risk on tight deadlines."
+                    "Bolstered security and reduced staging costs by \\textbf{20%} by configuring private networks on our \\textbf{GCP infrastructure}.",
+                    "Reduced \\textbf{on-call} complaints by \\textbf{70%} by organizing team-wide release discussions and leading process improvements.",
+                    "Led \\textbf{3} multi-faceted, high impact \\textbf{GCP} upgrades, cooperating with my team to manage risk on tight deadlines."
                 ]
             },
             {
@@ -66,11 +67,12 @@
                 "period": "May 2023 - Aug 2023",
                 "position": "Cyber Security Applications Developer",
                 "location": "Toronto, ON",
-                "techstack": "Python, Django REST, Vue.js, MySQL, Figma",
+                "techstack": "Django REST, Vue.js, Jest, MySQL, Figma",
                 "resumeItems": [
-                    "Facilitated the development of a new cyber security dashboard, translating requirements into \\textbf{100s of Jira releases, epics, and stories}.",
-                    "Handled sensitive cybersecurity data by creating performant \\textbf{Django REST APIs} and \\textbf{MySQL migrations}.",
-                    "Demonstrated my commitment to quality with a \\textbf{complete ownership} of \\textbf{5+} features, from design to deployment."
+                    "Engaged with stakeholders to translate requirements into \\textbf{10s of prioritized stories, releases and epics}.",
+                    "Developed \\textbf{automated tests} for both frontend and backend services using \\textbf{Jest} and Python's \\textbf{unittest}.",
+                    "Managed sensitive cybersecurity data by creating performant \\textbf{Django REST APIs} and \\textbf{MySQL migrations}.",
+                    "Demonstrated my commitment to quality with a \\textbf{complete ownership} of \\textbf{5+} features, from design to \\textbf{deployment}."
                 ]
             },
             {
@@ -80,8 +82,8 @@
                 "location": "Guelph, ON",
                 "techstack": "Angular, C#, .NET, Snowflake",
                 "resumeItems": [
-                    "Grew our Advertising dashboard to support third-party vendors with \\textbf{Angular} and \\textbf{.NET}.",
-                    "Reduced API response time by \\textbf{30-40%} by optimizing redundant SQL queries."
+                    "Grew our Advertising dashboard with \\textbf{Angular 17} and \\textbf{.NET 8}, enabling support for third-party vendors.",
+                    "Reduced backend response time by \\textbf{30-40%} by optimizing redundant \\textbf{SQL} queries."
                 ]
             }
         ]
