@@ -3,21 +3,7 @@
         "sectionName": "Professional Summary",
         "subheadings": [
             {
-                "rawText": "Software engineering graduate with 3+ years of experience building scalable, event-driven and user-focused applications. Skilled in software testing, cloud technology, and databases. Collaborative team member seeking to leverage my technical and leadership expertise at a fast-paced innovative opportunity."
-            }
-        ]
-    },
-    {
-        "sectionName": "Education",
-        "subheadings": [
-            {
-                "company": "University of Guelph",
-                "period": "September 2020 - April 2025 (Expected)",
-                "position": "Bachelor of Computing, Software Engineering (Co-op),",
-                "resumeItems": [
-                    "Minor: Project Management",
-                    "Relevant Courses: Software Reliability & Testing, Databases, Software Design V, Agile Project Management"
-                ]
+                "rawText": "Software engineering graduate with 3+ years of experience building scalable web applications using \\textbf{TypeScript}, \\textbf{React}, and \\textbf{Next.js}. Skilled in translating \\textbf{Figma} designs into responsive UI components with \\textbf{Tailwind CSS}. Experienced collaborating with cross-functional teams and familiar with \\textbf{Python REST APIs}, \\textbf{PostgreSQL}, and modern development workflows including \\textbf{Git} and CI/CD."
             }
         ]
     },
@@ -26,9 +12,9 @@
         "subheadings": [
             {
                 "resumeItems": [
-                    "\\textbf{Languages}: JavaScript, C#, SQL, Typescript, Python, Java, GO",
-                    "\\textbf{Frameworks and Libraries}: Angular 17, .NET 8, React, Jest, Vue, Node.js, Django, Java Spring, GraphQL.",
-                    "\\textbf{Cloud}: Google Cloud, AWS, CI/CD, Docker, Kubernetes, GitHub Actions, Firebase"
+                    "\\textbf{Languages & Frameworks:} TypeScript, JavaScript, React, Next.js, Vue.js, Angular, Node.js, Express, .NET.",
+                    "\\textbf{Cloud & DevOps:} AWS (EC2, ElastiCache), Google Cloud Platform (GCP), Kubernetes, Docker, GitHub Actions.",
+                    "\\textbf{Tools:} Git, JIRA, Slack, Figma."
                 ]
             }
         ]
@@ -40,13 +26,12 @@
                 "company": "LearningModeAI",
                 "period": "Jan 2025 - Present",
                 "position": "Founding Engineer",
-                "location": "Toronto, ON",
-                "techstack": "GO, Javascript, React, AWS, Docker",
+                "location": "Remote",
                 "resumeItems": [
-                    "Develop a scalable and performant microservice architecture with \\textbf{AWS EC2 & Elasticache}.",
-                    "Translate \\textbf{user needs} into \\textbf{requirements} by enabling Microsoft Clarity \\textbf{user analytics}.",
-                    "Collaborate with developers and co-founders to create Agile user stories and \\textbf{provide estimates}.",
-                    "Mentor \\textbf{6} junior developers in our tech stack, performing \\textbf{code reviews} and shared learning sessions."
+                    "Developed a custom \\textbf{Webpack }configuration to build a hybrid \\textbf{JavaScript/React Chrome extension}.",
+                    "Built high-performance AWS microservices with \\textbf{Go}, \\textbf{ElastiCache}, and \\textbf{EC2} for an asynchronous learning platform.",
+                    "Mentored 6 junior developers on \\textbf{TypeScript} and \\textbf{React} through code reviews and pair programming.",
+                    "Introduced \\textbf{Agile }and \\textbf{Lean} best practices, improving feature delivery and system stability."
                 ]
             },
             {
@@ -54,60 +39,77 @@
                 "period": "Jan 2024 - Aug 2024",
                 "position": "Software Engineer",
                 "location": "Toronto, ON",
-                "techstack": "GO, Typescript, GCP",
                 "resumeItems": [
-                    "Enabled \\textbf{1000s} of users to link their Yale smart door locks to our app using third-party webhooks in GO.",
-                    "Bolstered security and reduced staging costs by \\textbf{20%} by configuring private networks on our \\textbf{GCP infrastructure}.",
-                    "Reduced \\textbf{on-call} complaints by \\textbf{70%} by organizing team-wide release discussions and leading process improvements.",
-                    "Led \\textbf{3} multi-faceted, high impact \\textbf{GCP} upgrades, cooperating with my team to manage risk on tight deadlines."
+                    "Developed 3 new frontend screens for coupon code activation using \\textbf{Next.js} with \\textbf{Amplitude} for real-time analytics.",
+                    "Led a sprint as \\textbf{SCRUM Lead}, introducing rituals that cut incomplete Jira epics by 40%.",
+                    "Collaborated across 8+ teams, ensuring timely delivery of complex features.",
+                    "Configured private networks on \\textbf{GCP}, reducing staging costs by 20% and enhancing security."
                 ]
             },
             {
-                "company": "Royal Bank of Canada",
+                "company": "Royal Bank of Canada (RBC)",
                 "period": "May 2023 - Aug 2023",
                 "position": "Cyber Security Applications Developer",
                 "location": "Toronto, ON",
-                "techstack": "Django REST, Vue.js, Jest, MySQL, Figma",
                 "resumeItems": [
-                    "Engaged with stakeholders to translate requirements into \\textbf{10s of prioritized stories, releases and epics}.",
-                    "Developed \\textbf{automated tests} for both frontend and backend services using \\textbf{Jest} and Python's \\textbf{unittest}.",
-                    "Managed sensitive cybersecurity data by creating performant \\textbf{Django REST APIs} and \\textbf{MySQL migrations}.",
-                    "Demonstrated my commitment to quality with a \\textbf{complete ownership} of \\textbf{5+} features, from design to \\textbf{deployment}."
+                    "Designed and implemented 8+ responsive frontend components with \\textbf{Vue.js}, \\textbf{Tailwind CSS}, and \\textbf{Figma}.",
+                    "Optimized frontend performance and improved state management to increase user engagement and reduce load times.",
+                    "Created a \\textbf{Mock API} with \\textbf{Django} and \\textbf{Faker} for robust end-to-end testing of complex data pipelines."
                 ]
             },
             {
                 "company": "System1",
-                "period": "Sept 2022 - Dec 2022",
+                "period": "Sep 2022 - Dec 2022",
                 "position": "Full Stack Web Developer",
                 "location": "Guelph, ON",
-                "techstack": "Angular, C#, .NET, Snowflake",
                 "resumeItems": [
-                    "Grew our Advertising dashboard with \\textbf{Angular 17} and \\textbf{.NET 8}, enabling support for third-party vendors.",
-                    "Reduced backend response time by \\textbf{30-40%} by optimizing redundant \\textbf{SQL} queries."
+                    "Enhanced advertising dashboard frontend with \\textbf{Angular}, implementing dynamic data visualizations.",
+                    "Collaborated on UI redesign to increase usability and accessibility across devices.",
+                    "Optimized \\textbf{Snowflake SQL} queries, reducing API response times by 30-40%.",
+                    "Developed reusable, end-to-end file validation service to prevent cyber attacks."
                 ]
             }
         ]
     },
     {
-        "sectionName": "Projects",
+        "sectionName": "Passion Projects",
         "subheadings": [
             {
-                "company": "Plant Together",
-                "period": "Sept 2024 - Present",
-                "techstack": "React, ExpressJS, Postgres, Google Compute Engine, Yjs",
+                "company": "EZCV",
+                "period": "January 2025 - Present",
                 "resumeItems": [
-                    "Created a collaborative PlantUML editor, used by \\textbf{50+ colleagues} for their Software Design Courses.",
-                    "Enabled error-free, real-time collaboration using Yjs, eliminating the potential for merge conflicts.",
-                    "Persisted encrypted designs using Redis cache and a Postgres backup for long term storage."
-                ]
+                    "Built a \\textbf{Next.js} frontend on \\textbf{Vercel} with \\textbf{Firebase Auth} & \\textbf{Firestore} for interactive resume assistance.",
+                    "Engineered a \\textbf{Node.js}/OpenAI service on \\textbf{Google Cloud Run} to auto-generate personalized documents from structured user data.",
+                    "Developed a \\textbf{Node.js} document service using \\textbf{Firebase Storage} & \\textbf{Firestore} for easy CRUD of user documents.",
+                    "Standardized \\textbf{Docker}-based CI/CD across the monorepo, ensuring reliable builds and deployments."
+                ],
+                "techstack": "Next.js, Vercel, Firebase, Google Cloud Run, OpenAI API, Python Flask, Docker, TypeScript"
             },
             {
-                "company": "Reddit to TikTok Re-Poster",
-                "period": "Mar 2021 - May 2021",
-                "techstack": "Python, Flask, Firebase, OpenCV, MoviePy",
+                "company": "Plant Together",
+                "period": "Sep 2024 - Mar 2025",
                 "resumeItems": [
-                    "Architected an ML powered automatic content creation pipeline using OpenCV, MoviePy and the Reddit API.",
-                    "Achieved \\textbf{95% improvement} in goal-finding speed through \\textbf{multithreading} and \\textbf{binary search} algorithms."
+                    "Built a real-time collaborative UML editor with \\textbf{React}, \\textbf{ExpressJS}, and \\textbf{Yjs}, supporting 50+ users.",
+                    "Implemented client-side \\textbf{PlantUML} rendering via WebAssembly for instant diagram updates.",
+                    "Integrated \\textbf{Redis} caching and \\textbf{PostgreSQL} backup for encrypted design storage.",
+                    "Led product ownership adding authentication, cursor highlighting, and private/public rooms."
+                ],
+                "techstack": "React, ExpressJS, Yjs, Redis, PostgreSQL, WebAssembly"
+            }
+        ]
+    },
+    {
+        "sectionName": "Education",
+        "subheadings": [
+            {
+                "company": "University of Guelph",
+                "period": "September 2020 - April 2025",
+                "position": "Bachelor of Computing, Software Engineering (Co-op)",
+                "location": "Guelph, ON",
+                "resumeItems": [
+                    "Minor in Project Management.",
+                    "GPA: 3.7/4.0.",
+                    "Relevant coursework: Software Reliability & Testing, Databases, Software Design, Data Structures."
                 ]
             }
         ]
