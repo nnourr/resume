@@ -3,7 +3,7 @@
         "sectionName": "Professional Summary",
         "subheadings": [
             {
-                "rawText": "Software engineering graduate with 3+ years of experience building scalable web applications using \\textbf{TypeScript}, \\textbf{React}, and \\textbf{Next.js}. Skilled in translating \\textbf{Figma} designs into responsive UI components with \\textbf{Tailwind CSS}. Experienced collaborating with cross-functional teams and familiar with \\textbf{Python REST APIs}, \\textbf{PostgreSQL}, and modern development workflows including \\textbf{Git} and CI/CD."
+                "rawText": "Founding engineer with 4+ years building scalable, multi-tenant web applications end-to-end (database to UI) using \\textbf{TypeScript}, \\textbf{React/Next.js}, \\textbf{Python/FastAPI}, and \\textbf{PostgreSQL}. Shipped AI, real-time, and growth features across \\textbf{88 tenants} and \\textbf{38,000+ users} on \\textbf{GCP}."
             }
         ]
     },
@@ -12,9 +12,9 @@
         "subheadings": [
             {
                 "resumeItems": [
-                    "\\textbf{Languages & Frameworks:} TypeScript, JavaScript, React, Next.js, Vue.js, Angular, Node.js, Express, .NET.",
-                    "\\textbf{Cloud & DevOps:} AWS (EC2, ElastiCache), Google Cloud Platform (GCP), Kubernetes, Docker, GitHub Actions.",
-                    "\\textbf{Tools:} Git, JIRA, Slack, Figma."
+                    "\\textbf{Languages & Frameworks:} TypeScript, JavaScript, Python, React, Next.js, FastAPI, SQLAlchemy, Node.js",
+                    "\\textbf{Cloud & DevOps:} GCP (Cloud Run, Pub/Sub), AWS (EC2, ElastiCache), Docker, Kubernetes, GitHub Actions.",
+                    "\\textbf{Tools:} PostgreSQL, Redis, PostHog, Prometheus, React Query, Tailwind CSS, Firebase."
                 ]
             }
         ]
@@ -23,9 +23,21 @@
         "sectionName": "Experience",
         "subheadings": [
             {
+                "company": "Decoda Health (YC W23)",
+                "period": "Jul 2025 - Present",
+                "position": "Founding Engineer | Next.js, FastAPI, PostgreSQL, React Query, GCP",
+                "location": "Toronto, ON",
+                "resumeItems": [
+                    "\\textbf{AI & Real-time:} Engineered a crash-resistant medical AI scribe with IndexedDB persistence and exponential backoff (96.7% reliability) used across \\textbf{83K+ sessions}, saving clinicians \\textbf{11,000+ hours}. Built \\textbf{WebSocket-driven patient status workflows} tracking \\textbf{75K+ transitions} with a live waiting room dashboard used daily across clinics.",
+                    "\\textbf{Product & Growth:} Rewrote the patient booking flow serving \\textbf{70K+ unique patients} with location-aware routing, driving a \\textbf{63% MoM increase} to \\textbf{3,800 bookings/month}. Built an end-to-end \\textbf{email platform} with a reusable WYSIWYG composer, webhook-driven delivery tracking, and \\textbf{blast campaigns} reaching \\textbf{12,600+ recipients} across \\textbf{47 clinics} processing \\textbf{68K+ emails}.",
+                    "\\textbf{Platform Architecture:} Engineered a \\textbf{design system} with semantic Tailwind variables, \\textbf{dark mode}, and per-tenant \\textbf{white-label branding} powering \\textbf{38,000+ users} across \\textbf{88 tenants}. Designed the drag-and-drop scheduling builder enabling \\textbf{42+ clinics} to configure multi-provider workflows easier than any other EHR.",
+                    "\\textbf{Observability & DevOps:} Built the company's first analytics stack ingesting \\textbf{29.2M events} via PostHog and Prometheus with a \\textbf{95-event taxonomy}. Drove \\textbf{React Query} adoption across the frontend, built CI/CD tooling with migration safeguards, and implemented MFA/auto-logout for \\textbf{HIPAA/PHIPA} compliance."
+                ]
+            },
+            {
                 "company": "LearningModeAI",
-                "period": "Jan 2025 - Present",
-                "position": "Founding Engineer",
+                "period": "Jan 2025 - Jul 2025",
+                "position": "Founding Engineer | JavaScript, Go, ElastiCache, EC2",
                 "location": "Remote",
                 "resumeItems": [
                     "Developed a custom \\textbf{Webpack }configuration to build a hybrid \\textbf{JavaScript/React Chrome extension}.",
@@ -37,64 +49,30 @@
             {
                 "company": "ecobee",
                 "period": "Jan 2024 - Aug 2024",
-                "position": "Software Engineer",
+                "position": "Software Engineer | Go, Next.js, Kubernetes, GCP",
                 "location": "Toronto, ON",
                 "resumeItems": [
-                    "Developed 3 new frontend screens for coupon code activation using \\textbf{Next.js} with \\textbf{Amplitude} for real-time analytics.",
-                    "Led a sprint as \\textbf{SCRUM Lead}, introducing rituals that cut incomplete Jira epics by 40%.",
-                    "Collaborated across 8+ teams, ensuring timely delivery of complex features.",
-                    "Configured private networks on \\textbf{GCP}, reducing staging costs by 20% and enhancing security."
+                    "Developed frontend screens for coupon code activation using \\textbf{Next.js} with \\textbf{Amplitude} analytics. Configured private networks on \\textbf{GCP}, reducing staging costs by 20%.",
+                    "Led a sprint as \\textbf{SCRUM Lead} across 8+ teams, introducing rituals that cut incomplete Jira epics by 40%."
                 ]
             },
             {
                 "company": "Royal Bank of Canada (RBC)",
                 "period": "May 2023 - Aug 2023",
-                "position": "Cyber Security Applications Developer",
+                "position": "Cyber Security Applications Developer | Vue.js, Django, Tailwind CSS, Figma",
                 "location": "Toronto, ON",
                 "resumeItems": [
-                    "Designed and implemented 8+ responsive frontend components with \\textbf{Vue.js}, \\textbf{Tailwind CSS}, and \\textbf{Figma}.",
-                    "Optimized frontend performance and improved state management to increase user engagement and reduce load times.",
-                    "Created a \\textbf{Mock API} with \\textbf{Django} and \\textbf{Faker} for robust end-to-end testing of complex data pipelines."
+                    "Built 8+ responsive components with \\textbf{Vue.js} and \\textbf{Tailwind CSS}. Created a \\textbf{Mock API} with \\textbf{Django} and \\textbf{Faker} for end-to-end testing of data pipelines."
                 ]
             },
             {
                 "company": "System1",
                 "period": "Sep 2022 - Dec 2022",
-                "position": "Full Stack Web Developer",
+                "position": "Full Stack Web Developer | Angular, Snowflake SQL, Python Flask",
                 "location": "Guelph, ON",
                 "resumeItems": [
-                    "Enhanced advertising dashboard frontend with \\textbf{Angular}, implementing dynamic data visualizations.",
-                    "Collaborated on UI redesign to increase usability and accessibility across devices.",
-                    "Optimized \\textbf{Snowflake SQL} queries, reducing API response times by 30-40%.",
-                    "Developed reusable, end-to-end file validation service to prevent cyber attacks."
+                    "Enhanced advertising dashboard frontend with \\textbf{Angular}, implementing dynamic data visualizations, UI redesigns, and optimized Snowflake SQL queries."
                 ]
-            }
-        ]
-    },
-    {
-        "sectionName": "Passion Projects",
-        "subheadings": [
-            {
-                "company": "EZCV",
-                "period": "January 2025 - Present",
-                "resumeItems": [
-                    "Built a \\textbf{Next.js} frontend on \\textbf{Vercel} with \\textbf{Firebase Auth} & \\textbf{Firestore} for interactive resume assistance.",
-                    "Engineered a \\textbf{Node.js}/OpenAI service on \\textbf{Google Cloud Run} to auto-generate personalized documents from structured user data.",
-                    "Developed a \\textbf{Node.js} document service using \\textbf{Firebase Storage} & \\textbf{Firestore} for easy CRUD of user documents.",
-                    "Standardized \\textbf{Docker}-based CI/CD across the monorepo, ensuring reliable builds and deployments."
-                ],
-                "techstack": "Next.js, Vercel, Firebase, Google Cloud Run, OpenAI API, Python Flask, Docker, TypeScript"
-            },
-            {
-                "company": "Plant Together",
-                "period": "Sep 2024 - Mar 2025",
-                "resumeItems": [
-                    "Built a real-time collaborative UML editor with \\textbf{React}, \\textbf{ExpressJS}, and \\textbf{Yjs}, supporting 50+ users.",
-                    "Implemented client-side \\textbf{PlantUML} rendering via WebAssembly for instant diagram updates.",
-                    "Integrated \\textbf{Redis} caching and \\textbf{PostgreSQL} backup for encrypted design storage.",
-                    "Led product ownership adding authentication, cursor highlighting, and private/public rooms."
-                ],
-                "techstack": "React, ExpressJS, Yjs, Redis, PostgreSQL, WebAssembly"
             }
         ]
     },
@@ -104,12 +82,10 @@
             {
                 "company": "University of Guelph",
                 "period": "September 2020 - April 2025",
-                "position": "Bachelor of Computing, Software Engineering (Co-op)",
+                "position": "Bachelor of Computing, Software Engineering (Co-op) | GPA: 3.7/4.0",
                 "location": "Guelph, ON",
                 "resumeItems": [
-                    "Minor in Project Management.",
-                    "GPA: 3.7/4.0.",
-                    "Relevant coursework: Software Reliability & Testing, Databases, Software Design, Data Structures."
+                    "Minor in Project Management."
                 ]
             }
         ]
