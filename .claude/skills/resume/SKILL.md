@@ -16,7 +16,7 @@ You are helping Nour edit his resume. The resume is a JSON-to-LaTeX pipeline.
 - **Generator**: `src/generate_resume.py` reads JSON, auto-escapes special chars (`&`, `%`, `$`, `#`, `_`, etc.), and generates LaTeX
 - **Components**: `src/components/*.tex` — LaTeX templates for sections, subheadings, items
 - **Research**: `sections/*.md` — detailed impact analysis files with Git/DB/PostHog metrics for each domain of work at Decoda Health
-- **Compile**: `compile_resume.sh` (requires `pdflatex`)
+- **Compile**: Run `docker compose up` to generate the resume PDF
 
 ## Key Rules
 
