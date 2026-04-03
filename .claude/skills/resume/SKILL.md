@@ -28,7 +28,7 @@ The `generate_resume.py` script auto-escapes all special LaTeX characters. **Do 
 - Lead every bullet with a strong action verb (Engineered, Architected, Built, Designed, Drove, Established).
 - Bold key technologies and metrics with `\textbf{}`.
 - Keep bullets concise — 1-2 sentences max.
-- Group Decoda bullets by theme with bold prefixes: `\textbf{Category:}` (e.g., AI & Real-time, Product & Growth, Platform Architecture, Observability & DevOps).
+- Match the formatting style of existing bullets in the target section. Do not introduce bold category prefixes unless they are already used.
 
 ### JSON Structure
 
@@ -65,8 +65,9 @@ Supported subheading fields: `company`, `period`, `position`, `location`, `techs
 1. Read `config/sections.json`
 2. If adding Decoda work, check `sections/*.md` for detailed metrics and context
 3. For new metrics, query the production database or PostHog:
-   - **Database**: Use `GOOGLE_CLOUD_PROJECT=decoda-397301 STORE_HOST=127.0.0.1 /Users/nour/decoda/.venv/bin/python` with SQLAlchemy (see `sections/*.md` or `/Users/nour/decoda/notebooks/db.ipynb` for connection patterns)
-   - **PostHog**: Use `posthog-cli exp query run "SQL"` (credentials at `~/.posthog/credentials.json`)
+   - **Learn query patterns first**: Grep inside `/Users/nour/decoda/` to understand how analytics and metrics queries are structured before writing your own. Search for SQLAlchemy models, PostHog query examples, view definitions, and connection patterns (e.g., `grep -r "posthog" /Users/nour/decoda/`, `grep -r "engine\|Session\|create_engine" /Users/nour/decoda/`). Use what you find as reference for building your own queries.
+   - **Database**: Use `GOOGLE_CLOUD_PROJECT=decoda-397301 STORE_HOST=127.0.0.1 /Users/nour/decoda/.venv/bin/python` with SQLAlchemy (see `sections/*.md` or `/Users/nour/decoda/notebooks/db.ipynb` for connection patterns). **Query the `public.*_all` views** (e.g., `public.conversations_all`, `public.messages_all`) to get data across all tenants rather than tenant-scoped tables.
+   - **PostHog**: Use `posthog-cli exp query run "SQL"` (credentials at `~/.posthog/credentials.json`). Grep `/Users/nour/decoda/` for PostHog event names and query examples to understand available events and properties.
    - **Git**: Use `git log` in `/Users/nour/decoda/` for commit history and PR stats
 4. Write the bullet, edit `sections.json`, and validate JSON
 
