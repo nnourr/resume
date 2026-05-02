@@ -28,7 +28,6 @@ The `generate_resume.py` script auto-escapes all special LaTeX characters. **Do 
 - Lead every bullet with a strong action verb (Engineered, Architected, Built, Designed, Drove, Established).
 - Bold key technologies and metrics with `\textbf{}`.
 - Keep bullets concise — 1-2 sentences max.
-- Match the formatting style of existing bullets in the target section. Do not introduce bold category prefixes unless they are already used.
 
 ### JSON Structure
 

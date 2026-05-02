@@ -25,14 +25,15 @@
             {
                 "company": "Decoda Health (YC W23)",
                 "period": "Jul 2025 - Present",
-                "position": "Founding Engineer | Next.js, FastAPI, PostgreSQL, React Query, GCP",
+                "position": "Founding Engineer, Product | Next.js, FastAPI, PostgreSQL, React Query, GCP",
                 "location": "Toronto, ON",
                 "resumeItems": [
-                    "Engineered a crash-resistant \\textbf{medical AI scribe} with IndexedDB persistence and exponential backoff (96.7% reliability) used across \\textbf{83K+ sessions}, saving clinicians \\textbf{11,000+ hours}.", 
-                    "Rewrote our \\textbf{online booking}, driving a \\textbf{63% MoM increase} to \\textbf{3,800 bookings/month}, serving \\textbf{70K+ patients}.",
-                    "Built an end-to-end \\textbf{email platform} with a reusable WYSIWYG composer, webhook-driven delivery tracking, enabling \\textbf{email marketing campaigns}, touching \\textbf{12,600+ recipients} and sending \\textbf{68K+ emails}.",
-                    "Designed the \\textbf{drag-and-drop scheduling builder} enabling \\textbf{42+ clinics} to configure multi-service appointment, powering \\textbf{157K+ staff-scheduled appointments} and \\textbf{20K+ upsells}.",
-                    "Built the company's first \\textbf{analytics stack} ingesting \\textbf{29.2M events} via PostHog with a \\textbf{95-event taxonomy}.",
+                    "Engineered a crash-resistant \\textbf{medical AI scribe} with IndexedDB persistence and exponential backoff, used across \\textbf{104K+ sessions} and generating \\textbf{81K+ AI notes}, saving medical professionals \\textbf{13,000+ hours}.",
+                    "Rewrote our \\textbf{online booking}, scaling it \\textbf{2x} to \\textbf{2,500 bookings/month} across \\textbf{29 clinics} and for \\textbf{179K+ patients}.",
+                    "Built an end-to-end \\textbf{email platform} with a reusable WYSIWYG composer, delivery and engagement tracking, enabling \\textbf{email marketing campaigns} reaching \\textbf{32K+ recipients} across \\textbf{12 campaigns} and sending \\textbf{94K+ emails}.",
+                    "Designed the \\textbf{drag-and-drop scheduling builder} powering \\textbf{49 clinics} to create \\textbf{700K+ complex, multi-service appointments} with equipment booking, clean-up and prep time logic",
+                    "Built the company's first \\textbf{observability stack} ingesting \\textbf{37.8M events} via PostHog with a \\textbf{118-event taxonomy}.",
+                    "Architected a \\textbf{typed, cross-store internal product adoption platform} unifying \\textbf{Postgres} and \\textbf{PostHog} behind a \\textbf{FastAPI} query registry, exposing \\textbf{142 metrics} across \\textbf{18 product modules} as the foundation for customer-health scoring and net-revenue-retention tracking.",
                     "Drove company-wide adoption of \\textbf{React Query}, establishing patterns for cache invalidation, optimistic updates, and mutation handling resulting in instant page loads while eliminating stale data bugs via stale-while-revalidate caching."
                 ]
             },
